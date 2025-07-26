@@ -1,6 +1,6 @@
 [package]
 name = "mod_idiom"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Nossie531"]
 edition = "2024"
 description = "`mod` and `use` idiom."
