@@ -53,9 +53,9 @@ Followings are some of them.
 ## Highlights
 
 This crate has **no** functional advantages compared to others.  
-(Furthermore, this crate does not support batch targeting.)
+(Furthermore, this crate does not support bulk targeting.)
 
-Therefore all that remains is the name and notation.  
+Therefore the rest is all about names and notation.  
 In other words, it's just a matter of style preference.  
 I hope this crate fits your style...
 
