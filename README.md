@@ -67,7 +67,7 @@ This can be achieved by changing crate name when introducing it in
 
 ```toml
 [dependencies]
-mi = { version = "0.1", package = "mod_items" }
+mi = { package = "mod_items", version = "0.1" }
 ```
 
 ## History
