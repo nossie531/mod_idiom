@@ -1,4 +1,4 @@
-# mod_items
+# mod_item
 
 Module item importer.
 
@@ -67,7 +67,7 @@ This can be achieved by changing crate name when introducing it in
 
 ```toml
 [dependencies]
-m = { package = "mod_items", version = "0.1" }
+m = { package = "mod_item", version = "0.1" }
 ```
 
 ## History

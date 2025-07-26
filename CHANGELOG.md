@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First relsease.
 
-[0.1.0]: https://github.com/nossie531/mod_items/releases/tag/v0.1.0
+[0.1.0]: https://github.com/nossie531/mod_item/releases/tag/v0.1.0
