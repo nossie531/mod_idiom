@@ -52,7 +52,7 @@ Followings are some of them.
 
 ## Highlights
 
-This crate has **no** functional advantages compared to other crates.  
+This crate has **no** functional advantages compared to others.  
 (Furthermore, this crate does not support batch targeting.)
 
 Therefore all that remains is the name and notation.  
