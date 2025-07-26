@@ -31,10 +31,10 @@ pub use my_items::*;
 With this crate.
 
 ```rust
-mi::items!(pub my_items::*);
+m::item!(pub my_items::*);
 ```
 
-Note: `mi` is [shorthand](#tips-shorthand-name) for this crate.
+Note: `m` is [shorthand](#tips-shorthand-name) for this crate.
 
 ## Other options
 
@@ -67,7 +67,7 @@ This can be achieved by changing crate name when introducing it in
 
 ```toml
 [dependencies]
-mi = { package = "mod_items", version = "0.1" }
+m = { package = "mod_items", version = "0.1" }
 ```
 
 ## History

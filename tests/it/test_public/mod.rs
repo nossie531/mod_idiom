@@ -1,6 +1,6 @@
 use mod_items::prelude::*;
 
-items!(pub target_items::*);
+item!(pub target_items::*);
 
 #[test]
 fn test() {

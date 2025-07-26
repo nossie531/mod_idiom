@@ -1,3 +1,3 @@
 //! Crate's prelude.
 
-pub use crate::items;
+pub use crate::item;
