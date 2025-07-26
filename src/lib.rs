@@ -28,7 +28,7 @@ pub mod prelude;
 ///
 /// ```ignore
 /// # use mod_idiom::prelude::*;
-/// u!(pub my_items::*);
+/// u!(pub my_items);
 /// ```
 ///
 /// File `util/my_items.rs`:
@@ -40,7 +40,7 @@ pub mod prelude;
 /// ```
 #[macro_export]
 macro_rules! u {
-    ($vis:vis mod $module:ident::*) => {
+    ($vis:vis mod $module:ident) => {
         mod $module;
         $vis use $module::*;
     };

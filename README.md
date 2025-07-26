@@ -31,7 +31,7 @@ pub use my_items::*;
 With this crate.
 
 ```rust
-m::u!(pub mod my_items::*);
+m::u!(pub mod my_items);
 ```
 
 Note: `m` is [shorthand](#tips-shorthand-name) by `Cargo.toml`.
