@@ -34,7 +34,7 @@ With this crate.
 m::item!(pub my_items::*);
 ```
 
-Note: `m` is [shorthand](#tips-shorthand-name) for this crate.
+Note: `m` is [shorthand](#tips-shorthand-name) by `Cargo.toml`.
 
 ## Other options
 
@@ -63,7 +63,7 @@ I hope this crate fits your style...
 
 Item imports are boilerplate, so you'll want to keep them short.
 This can be achieved by changing crate name when introducing it in
-`cargo.toml` as follows.
+`Cargo.toml` as follows.
 
 ```toml
 [dependencies]
