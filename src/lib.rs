@@ -1,4 +1,4 @@
-//! Module item importer.
+//! `mod` and `use` idiom.
 //!
 //! *The author of this crate is not good at English.*  
 //! *Forgive me if the document is hard to read.*
@@ -8,7 +8,7 @@
 
 pub mod prelude;
 
-/// Macros for module items import.
+/// A macro combining `mod` and `use`.
 ///
 /// # Examples
 ///
@@ -27,8 +27,8 @@ pub mod prelude;
 /// File `util/mod.rs`:
 ///
 /// ```ignore
-/// # use mod_items::prelude::*;
-/// item!(pub my_items::*);
+/// # use mod_idiom::prelude::*;
+/// u!(pub my_items::*);
 /// ```
 ///
 /// File `util/my_items.rs`:
@@ -39,8 +39,8 @@ pub mod prelude;
 /// pub fn my_func3() {}
 /// ```
 #[macro_export]
-macro_rules! item {
-    ($vis:vis $module:ident::*) => {
+macro_rules! u {
+    ($vis:vis mod $module:ident::*) => {
         mod $module;
         $vis use $module::*;
     };

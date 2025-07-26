@@ -1,10 +1,10 @@
 [package]
-name = "mod_item"
+name = "mod_idiom"
 version = "0.1.0"
 authors = ["Nossie531"]
 edition = "2024"
-description = "Module item importer."
-repository = "https://github.com/nossie531/mod_item"
+description = "`mod` and `use` idiom."
+repository = "https://github.com/nossie531/mod_idiom"
 license = "MIT OR Apache-2.0"
 keywords = ["mod", "use"]
 categories = ["no-std"]

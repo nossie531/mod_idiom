@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "mod_item"
+name = "mod_idiom"
 version = "0.1.0"

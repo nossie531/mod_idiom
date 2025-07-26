@@ -1,6 +1,6 @@
-use mod_item::prelude::*;
+use mod_idiom::prelude::*;
 
-item!(target_items::*);
+u!(mod target_items::*);
 
 #[test]
 fn test() {

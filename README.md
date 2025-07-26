@@ -1,6 +1,6 @@
-# mod_item
+# mod_idiom
 
-Module item importer.
+`mod` and `use` idiom.
 
 *The author of this crate is not good at English.*  
 *Forgive me if the document is hard to read.*
@@ -31,7 +31,7 @@ pub use my_items::*;
 With this crate.
 
 ```rust
-m::item!(pub my_items::*);
+m::u!(pub mod my_items::*);
 ```
 
 Note: `m` is [shorthand](#tips-shorthand-name) by `Cargo.toml`.
@@ -67,7 +67,7 @@ This can be achieved by changing crate name when introducing it in
 
 ```toml
 [dependencies]
-m = { package = "mod_item", version = "0.1" }
+m = { package = "mod_idiom", version = "0.1" }
 ```
 
 ## History
