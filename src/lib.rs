@@ -27,7 +27,7 @@ pub mod prelude;
 /// File `util/mod.rs`:
 ///
 /// ```ignore
-/// # use items::prelude::*;
+/// # use mod_items::prelude::*;
 /// items!(pub my_items::*);
 /// ```
 ///

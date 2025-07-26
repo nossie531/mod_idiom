@@ -1,4 +1,4 @@
-use items::prelude::*;
+use mod_items::prelude::*;
 
 items!(target_items::*);
 

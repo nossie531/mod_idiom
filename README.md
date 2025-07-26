@@ -1,4 +1,4 @@
-# items
+# mod_items
 
 Module item importer.
 
@@ -31,8 +31,10 @@ pub use my_items::*;
 With this crate.
 
 ```rust
-items!(pub my_items::*);
+mi::items!(pub my_items::*);
 ```
+
+Note: `mi` is [shorthand](#tips-shorthand-name) for this crate.
 
 ## Other options
 
@@ -56,6 +58,17 @@ This crate has **no** functional advantages compared to other crates.
 Therefore all that remains is the name and notation.  
 In other words, it's just a matter of style preference.  
 I hope this crate fits your style...
+
+## TIPS (shorthand name)
+
+Item imports are boilerplate, so you'll want to keep them short.
+This can be achieved by changing crate name when introducing it in
+`cargo.toml` as follows.
+
+```toml
+[dependencies]
+mi = { version = "0.1", package = "mod_items" }
+```
 
 ## History
 
